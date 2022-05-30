@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.imgp{
+	width: 500px;
+	height: 300px;
+}
+
+.imgs{
+	width: 400px;
+	height: 200px;
+}
+
+h1{
+	text-align:center;
+	color: blue;
+	padding: 50px;
+}
+
+h2{
+	text-align: left;
+	color: red;
+}
+
+h3{
+	text-align: right;
+	color: green;
+}
+
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+.imgp{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 8px solid blue;
+}
+
+.imgs{
+	display: block;
+	margin-left: all;
+	border: 8px solid red;
+}
+
+#menu{
+	display: block;
+
+}
+
+#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -10px;
+
+
+}
+
+#menu li{
+	display: inline-block;
+	background-color: gray;
+	padding: 5px;
+	margin: 3px;
+}
